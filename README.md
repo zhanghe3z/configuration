@@ -4,3 +4,5 @@
 3. [alacritty](https://github.com/zhanghe3z/-configuration-/blob/master/alacritty.yml)
 4. [ranger](https://github.com/zhanghe3z/my-ranger-config)
 5. >git 代理 git config --global http.proxy socks5://localhost:1080  
+6. >terminal 代理 export https_proxy=http://127.0.0.1:8889 http_proxy=http://127.0.0.1:8889 all_
+proxy=socks5://127.0.0.1:1089

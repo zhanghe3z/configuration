@@ -7,7 +7,8 @@
 6. terminal 代理 export https_proxy=http://127.0.0.1:8889 http_proxy=http://127.0.0.1:8889 all_
 proxy=socks5://127.0.0.1:1089
 7. [Download Google Drive files](https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805)  
->wget --no-check-certificate -r 'https://docs.google.com/uc?export=download&id=1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V' -O $(curl -s "https://drive.google.com/file/d/1eDjh-_bxKKnEuz5h-HXS7EDJn59clx6V/view?usp=sharing" | grep -o '<title>.*</title>' | cut -d'>' -f2 | awk -F ' - Goo' '{print $1}')
+>wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1eqcv0Urr-c3Of8RKmTLhXrY_5cZCUvu5' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1eqcv0Urr-c3Of8RKmTLhXrY_5cZCUvu5" -O iosxrvk9.qcow2 && rm -rf /tmp/cookies.txt
+
 8. ubuntu 16 中文乱码在zshrc下面加
 >LANG=zh_CN.UTF-8
 LANGUAGE=zh_CN:en_US:en

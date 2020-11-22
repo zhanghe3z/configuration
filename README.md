@@ -6,8 +6,8 @@
 5. git 代理 git config --global http.proxy socks5://localhost:1080  
 6. terminal 代理 export https_proxy=http://127.0.0.1:8889 http_proxy=http://127.0.0.1:8889 all_
 proxy=socks5://127.0.0.1:1089
-7. [Download Google Drive files](https://gist.github.com/iamtekeste/3cdfd0366ebfd2c0d805)  
->wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1vOfxAMFJUalhZzydzJa1AluRhzG7ZxHS' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1vOfxAMFJUalhZzydzJa1AluRhzG7ZxHS" -O iosxrvk9.qcow2 && rm -rf /tmp/cookies.txt
+7. [Download Google Drive files](https://github.com/pengsida/configuration/blob/master/download_gdrive.py)  
+
 
 8. ubuntu 16 中文乱码在zshrc下面加
 >LANG=zh_CN.UTF-8

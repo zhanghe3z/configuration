@@ -27,3 +27,4 @@ LC_IDENTIFICATION=zh_CN.UTF-8
 LC_ALL=
 
 9. [i3 config ](https://github.com/zhanghe3z/configuration/blob/master/config)
+10. [zsh config ](https://github.com/zhanghe3z/configuration/blob/master/.zshrc)

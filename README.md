@@ -28,3 +28,4 @@ LC_ALL=
 
 9. [i3 config ](https://github.com/zhanghe3z/configuration/blob/master/config)
 10. [zsh config ](https://github.com/zhanghe3z/configuration/blob/master/.zshrc)
+11. [生成数据集](https://github.com/zhanghe3z/configuration/blob/master/generate_data.py)
